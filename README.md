@@ -8,7 +8,7 @@ In our project we are taking into consideration the amazon review dataset for Cl
 Based on these input factors, sentiment analysis is performed on predicting the helpfulness of the reviews. 
 Moreover, we also designed item-based collaborative filtering model based on k-Nearest Neighbors to find the 2 most similar items.     
 
-###Convert json to CSV using following commands
+### Convert json to CSV using following commands
 ```
 dataframe = pd.read_json('reviews.json')
 dataframe.to_csv('reviews.csv', sep=',', index=False)
